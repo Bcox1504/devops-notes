@@ -12,6 +12,8 @@
 ## What is a Hypervisor?
 Software that links multiple hardware to use as one giant resources
 
+*See [homelab-vm-setup/general-notes.md](../homelab-vm-setup/general-notes.md) for hands-on hypervisor practice (VirtualBox on the admin VM).*
+
 ## The AWS Well-Architectured Framework: 
 1. Avoid unnecessary costs
     - Use only what you need
@@ -88,4 +90,6 @@ Software that links multiple hardware to use as one giant resources
 - Deployment, provisioning, & automation 
 - Security & compliance
 - Networking & content delivery
-- Cost & performance optimization 
+- Cost & performance optimization
+
+> **Note:** this domain list is from the old SOA-C02 exam, which AWS retired on Sept 29, 2025. The current exam is **AWS Certified CloudOps Engineer – Associate (SOA-C03)** with a revised 5-domain breakdown (cost/performance folded into Domain 1). See [sysops-progress.md](sysops-progress.md) for the up-to-date domain list and progress tracking.
