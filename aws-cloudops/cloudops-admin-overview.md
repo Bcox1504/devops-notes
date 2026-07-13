@@ -75,7 +75,7 @@ Software that links multiple hardware to use as one giant resources
     Expand pilots, scaling up to meet desired business needs while sustaining business benefits 
 
 
-# Roles and Responsibilities of a SysOps Administrator
+# Roles and Responsibilities of a CloudOps Engineer
 1. Provisioning & managing cloud VMs
 2. Maintaining backups for cloud resources
 3. Automating logs & monitoring processes 
@@ -92,4 +92,4 @@ Software that links multiple hardware to use as one giant resources
 - Networking & content delivery
 - Cost & performance optimization
 
-> **Note:** this domain list is from the old SOA-C02 exam, which AWS retired on Sept 29, 2025. The current exam is **AWS Certified CloudOps Engineer – Associate (SOA-C03)** with a revised 5-domain breakdown (cost/performance folded into Domain 1). See [sysops-progress.md](sysops-progress.md) for the up-to-date domain list and progress tracking.
+> **Note:** this domain list is from the old SOA-C02 exam (SysOps Administrator – Associate), which AWS retired on Sept 29, 2025 and replaced with **AWS Certified CloudOps Engineer – Associate (SOA-C03)** — the cert this repo is now tracking. SOA-C03 has a revised 5-domain breakdown (cost/performance folded into Domain 1). See [cloudops-progress.md](cloudops-progress.md) for the up-to-date domain list and progress tracking.

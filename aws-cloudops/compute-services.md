@@ -23,4 +23,4 @@ You: Responsible for guest OS, applying OS patches, setting up security access c
 ## Related Notes
 - [homelab-vm-setup/general-notes.md](../homelab-vm-setup/general-notes.md) — local VM/hypervisor practice, useful for comparing on-prem VMs to EC2's shared responsibility model
 - [linux-admin/](../linux-admin/) — guest OS management (patching, users, permissions) is the customer side of the EC2 shared responsibility model
-- Maps to [sysops-progress.md](sysops-progress.md) Domain 1 (EC2 performance/optimization) and Domain 3 (provisioning)
+- Maps to [cloudops-progress.md](cloudops-progress.md) Domain 1 (EC2 performance/optimization) and Domain 3 (provisioning)

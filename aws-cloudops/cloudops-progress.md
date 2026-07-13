@@ -1,6 +1,6 @@
-# AWS SysOps Cert Progress Tracker
+# AWS CloudOps Cert Progress Tracker
 
-> **Heads up:** AWS retired the SOA-C02 exam (SysOps Administrator – Associate) on Sept 29, 2025. It's now the **AWS Certified CloudOps Engineer – Associate (SOA-C03)** exam — same associate-level cert, updated name and content outline (6 domains collapsed to 5, containers/CDK added). If you registered under the old name, this is the exam you'll actually sit. Domain breakdown below reflects the current SOA-C03 exam guide (checked July 2026).
+> **Cert pivot:** AWS retired the SOA-C02 exam (SysOps Administrator – Associate) on Sept 29, 2025 and replaced it with the **AWS Certified CloudOps Engineer – Associate (SOA-C03)** exam — same associate-level cert, updated name and content outline (6 domains collapsed to 5, containers/CDK added). This folder now tracks SOA-C03. Domain breakdown below reflects the current SOA-C03 exam guide (checked July 2026).
 
 ## Domain Breakdown & Coverage
 
@@ -20,12 +20,13 @@ Covers Auto Scaling, ElastiCache, RDS/Aurora replicas, ELB + Route 53 health che
 Covers AMIs/container images, CloudFormation, AWS CDK, StackSets, cross-account/cross-Region provisioning, deployment strategies (blue/green, rolling, canary), Systems Manager, Terraform/Git for IaC.
 
 - **Notes so far:** [compute-services.md](compute-services.md) covers EC2 fundamentals (IaaS, shared responsibility) — a starting point for Task 3.1, but CloudFormation/CDK/deployment strategies aren't covered yet.
+
 - **Gap:** CloudFormation, CDK, StackSets, deployment strategies, automation via Systems Manager.
 
 ### Domain 4: Security and Compliance — 16%
 Covers IAM (MFA, roles, federated identity, policies), CloudTrail/IAM Access Analyzer auditing, multi-account strategies, Trusted Advisor, encryption at rest/in transit (KMS, ACM), Secrets Manager, Security Hub/GuardDuty/Config/Inspector.
 
-- **Notes so far:** [sysops-admin-overview.md](sysops-admin-overview.md) briefly mentions "Security" under the Well-Architected Framework and "Managing user identity & access" under SysOps admin roles, but nothing IAM/KMS-specific yet.
+- **Notes so far:** [cloudops-admin-overview.md](cloudops-admin-overview.md) briefly mentions "Security" under the Well-Architected Framework and "Managing user identity & access" under CloudOps engineer roles, but nothing IAM/KMS-specific yet.
 - **Gap:** almost everything — IAM details, encryption, Trusted Advisor, GuardDuty/Security Hub.
 
 ### Domain 5: Networking and Content Delivery — 18%

@@ -4,7 +4,7 @@ Personal repository of DevOps learning notes, homelab setup docs, and IT support
 
 ## Current Goals
 
-- AWS SysOps Administrator Certification
+- AWS CloudOps Engineer Certification (formerly SysOps Administrator)
 - Linux Administration
 - Docker
 - Kubernetes
@@ -12,7 +12,7 @@ Personal repository of DevOps learning notes, homelab setup docs, and IT support
 
 ## Folder Index
 
-- **aws-sysops/** — Study notes for the AWS Certified CloudOps Engineer – Associate cert (formerly SysOps Administrator): cloud fundamentals, Well-Architected Framework, CAF, compute services. See [sysops-progress.md](aws-sysops/sysops-progress.md) for the current exam domain breakdown and what's covered vs. still a gap.
+- **aws-cloudops/** — Study notes for the AWS Certified CloudOps Engineer – Associate cert (formerly SysOps Administrator): cloud fundamentals, Well-Architected Framework, CAF, compute services. See [cloudops-progress.md](aws-cloudops/cloudops-progress.md) for the current exam domain breakdown and what's covered vs. still a gap.
 - **linux-admin/** — Linux administration reference notes (commands, file permissions, users & groups, systemctl). Some files are still placeholders to be filled in.
 - **homelab-vm-setup/** — Setup notes for the homelab: Ubuntu VM and VirtualBox configuration, networking setup.
 - **github-ssh/** — GitHub and SSH configuration notes (key setup, git config, workflow). Currently empty — to be filled in.
@@ -26,6 +26,6 @@ Personal repository of DevOps learning notes, homelab setup docs, and IT support
 
 ## Naming Convention
 
-- Folders: lowercase, hyphenated (e.g. `aws-sysops`, `homelab-vm-setup`)
+- Folders: lowercase, hyphenated (e.g. `aws-cloudops`, `homelab-vm-setup`)
 - Files: lowercase, hyphenated, descriptive (e.g. `ssh-key-setup.md`)
 - Numbered prefixes only where sequence matters (e.g. AWS exam domains); otherwise no numbering
