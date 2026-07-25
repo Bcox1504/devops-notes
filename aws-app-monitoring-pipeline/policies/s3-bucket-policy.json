@@ -1,0 +1,28 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowCloudWatchToReadBucketAcl",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "logs.us-east-1.amazonaws.com"
+            },
+            "Action": "s3:GetBucketAcl",
+            "Resource": "arn:aws:s3:::YOUR-BUCKET-NAME"
+        },
+        {
+            "Sid": "AllowCloudWatchToUploadLogs",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "logs.us-east-1.amazonaws.com"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::YOUR-BUCKET-NAME/*",
+            "Condition": {
+                "ArnEquals": {
+                    "aws:SourceArn": "arn:aws:logs:us-east-1:YOUR-ACCOUNT-ID:log-group:*"
+                }
+            }
+        }
+    ]
+}
