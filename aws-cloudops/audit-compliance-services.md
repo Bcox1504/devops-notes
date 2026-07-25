@@ -25,4 +25,6 @@ Collects security alerts & findings from:
 ## Related Notes
 - [cloudops-admin-overview.md](cloudops-admin-overview.md) — Security perspective under the Well-Architected Framework and CAF
 - [monitoring-services.md](monitoring-services.md) — CloudWatch, which handles system/performance monitoring alongside CloudTrail's account activity auditing
+- [identity-services.md](identity-services.md) — IAM, MFA, and federated identity, which IAM Access Analyzer above audits
+- [security-services.md](security-services.md) — KMS, CloudHSM, ACM, Secrets Manager, WAF, Shield, and Amazon Detective (encryption & network protection, not duplicated here)
 - Maps to [cloudops-progress.md](cloudops-progress.md) Domain 4 (Security and Compliance)

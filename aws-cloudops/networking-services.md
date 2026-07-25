@@ -42,4 +42,6 @@ Collectively, these services help build secure, scalable, & efficient network ar
 
 ## Related Notes
 - [compute-services.md](compute-services.md) — EC2 instances that live inside the VPCs these services route traffic to
+- [security-services.md](security-services.md) — WAF, Shield, and Network Firewall, which protect the traffic flowing through this networking layer
+- [../networking/](../networking/) — general (non-AWS) networking fundamentals: network types, MAC/IPv4/IPv6 addressing that underlies VPC CIDR blocks and subnetting
 - Maps to [cloudops-progress.md](cloudops-progress.md) Domain 5 (Networking and Content Delivery)
