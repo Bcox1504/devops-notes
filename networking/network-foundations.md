@@ -1,6 +1,6 @@
 # Networking Foundations: Basics
 
-General networking fundamentals — not AWS-specific. For the AWS networking services (VPC, Route 53, CloudFront, etc.), see [aws-cloudops/networking-services.md](../aws-cloudops/networking-services.md) instead.
+General networking fundamentals — not AWS-specific. For AWS's own networking services, see [aws-cloudops/networking-services.md](../aws-cloudops/networking-services.md) instead.
 
 ## What is a network?
 A collection of interconnected devices that communicate — like a laptop connecting to an email server.
