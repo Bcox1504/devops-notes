@@ -93,3 +93,15 @@ Software that links multiple hardware to use as one giant resources
 - Cost & performance optimization
 
 > **Note:** this domain list is from the old SOA-C02 exam (SysOps Administrator – Associate), which AWS retired on Sept 29, 2025 and replaced with **AWS Certified CloudOps Engineer – Associate (SOA-C03)** — the cert this repo is now tracking. SOA-C03 has a revised 5-domain breakdown (cost/performance folded into Domain 1). See [cloudops-progress.md](cloudops-progress.md) for the up-to-date domain list and progress tracking.
+
+## AWS Support Plans
+There are 5 support plans for AWS:
+- Basic — free
+- Developer — $
+- Business — $$
+- Enterprise On-Ramp — $$$
+- Enterprise — $$$$
+
+Cost optimization in general focuses on the ability to run your systems and deliver business value at the lowest price point possible. It's a continual process of improving your AWS workloads while minimizing costs to achieve the outcomes the business expects, in a cost-effective manner. Aims to increase revenue and maximize ROI.
+
+*Maps to the Cost & Performance Optimization portion of Domain 1 — see [cloudops-progress.md](cloudops-progress.md).*
