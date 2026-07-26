@@ -41,6 +41,16 @@ When the threshold is breached, the alarm transitions from `OK` (or `INSUFFICIEN
 
 The alarm's action is configured to publish to an SNS topic with an email subscription. On alarm state change, subscribers receive an email notification within roughly a minute.
 
+### To Trigger Alarm
+
+```
+aws logs put-log-events \
+  --log-group-name /sandbox/application-target \
+  --log-stream-name test-application-stream \
+  --log-events timestamp=$(date +%s000),message="ERROR retrigger test $(date)" \
+  --region us-east-1
+```
+
 ## Scheduled archival path
 
 ### 1. EventBridge schedule
