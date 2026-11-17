@@ -17,7 +17,7 @@ Personal repository of DevOps learning notes, homelab setup docs, and IT support
 - **networking/** — General networking fundamentals, not tied to the AWS cert: network types (PAN/LAN/CAN/MAN/WAN), MAC addresses, IPv4/IPv6 addressing. Separate from `aws-cloudops/` since this material isn't from the CloudOps course.
 - **terraform/** — Terraform / Infrastructure as Code notes: HCL basics, providers, resources, the init/plan/apply/destroy workflow, and state (`terraform-basics.md`). Terraform is also in scope for CloudOps Domain 3, so see [cloudops-progress.md](aws-cloudops/cloudops-progress.md) for how it ties in.
 - **homelab-vm-setup/** — Setup notes for the homelab: Ubuntu VM and VirtualBox configuration, networking setup.
-- **github-ssh/** — GitHub and SSH configuration notes (key setup, git config, workflow). Currently empty — to be filled in.
+- **github-ssh/** — GitHub and SSH configuration notes. `ssh-key-setup.md` covers making an SSH key on the Mac, adding it to GitHub, switching the repo remote from HTTPS to SSH, and fixing the errors hit along the way.
 - **it-support-internship/** — Reference material from the IT support internship.
   - **troubleshooting/** — Step-by-step troubleshooting guides for common issues.
   - **tools/** — Notes on internship-specific tools (Encompass, myUHM, ZUHM, Argyle).
