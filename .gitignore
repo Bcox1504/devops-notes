@@ -24,3 +24,8 @@ desktop.ini
 # OneDrive sync artifacts
 *.tmp.driveupload
 ~$*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
